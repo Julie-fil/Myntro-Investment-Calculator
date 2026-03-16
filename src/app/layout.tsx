@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Investment Calculator – Enhanced Scale",
+  title: "Investment Calculator – Fixed vs. Overnight",
   description:
-    "Select an investment product to see your wealth grow over time.",
+    "Compare guaranteed fixed returns against flexible overnight liquidity.",
 };
 
 export default function RootLayout({
