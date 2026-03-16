@@ -9,7 +9,8 @@
     --chip-teal: #517789;
   }
   body {
-    @apply bg-deep-teal text-white antialiased;
+    @apply text-slate-900 antialiased;
+  background-color: #F7F5F3;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
