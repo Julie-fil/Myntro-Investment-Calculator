@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -7,10 +7,15 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
+
 export const metadata: Metadata = {
-  title: "Investment Calculator – Fixed vs. Overnight",
+  title: "Myntro — Core investment options",
   description:
-    "Compare guaranteed fixed returns against flexible overnight liquidity.",
+    "Tailor your investment to your goals. View your estimated earnings instantly.",
 };
 
 export default function RootLayout({
@@ -20,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-sans min-h-screen`}>
+      <body
+        className={`${inter.variable} ${playfair.variable} font-sans min-h-screen`}
+      >
         {children}
       </body>
     </html>

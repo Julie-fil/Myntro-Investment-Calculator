@@ -10,7 +10,7 @@
   }
   body {
     @apply text-slate-900 antialiased;
-  background-color: #F7F5F3;
+    background-color: #f5f2ed;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }

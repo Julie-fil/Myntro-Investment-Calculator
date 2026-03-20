@@ -16,6 +16,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Inter", "sans-serif"],
+        serif: ["var(--font-playfair)", "Playfair Display", "Georgia", "serif"],
       },
       animation: {
         "card-spring": "cardSpring 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
