@@ -1,13 +1,14 @@
-# Investment Calculator – Interactive Prototype
+# Myntro Investment Calculator
 
-Next.js 14 (App Router) prototype of the investment calculator with product cards, amount/horizon inputs, and compound interest result.
+Next.js 14 (App Router) prototype: Myntro core investment options, product tiles, amount input, and compound interest results.
 
 ## Stack
 
 - **Next.js 14** (App Router)
 - **Tailwind CSS**
 - **Lucide React** (icons)
-- **shadcn-style UI** (Card, Input, Select in `src/components/ui`)
+- **Playfair Display** + Inter (typography)
+- **shadcn-style UI** (Card, Input in `src/components/ui`)
 
 ## Run locally
 
@@ -16,11 +17,10 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). The app is mobile-first and works on all screen sizes.
+Open [http://localhost:3000](http://localhost:3000).
 
 ## Features
 
-- Select one of four product cards (Bank Alpha/Beta/Gamma/Delta) to set the interest rate.
-- Adjust **Investment amount** (€) and **Investment horizon** (5–30 years).
-- **Total value** and **Interest earned** update using compound interest: `A = P(1 + r)^t`.
-- Active card is visually emphasized (scale, border, shadow) and keyboard-accessible.
+- Three fixed-term Myntro options (12-month, 3-year, 4-year) with guaranteed rates.
+- **Investment amount** (minimum €5,000) and annual compounding.
+- **Guaranteed value** and **Interest earned** display.
